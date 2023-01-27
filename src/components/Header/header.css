@@ -1,9 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,300;1,200&family=Koulen&family=Kulim+Park:wght@200&family=Orbitron&display=swap');
+
 .header-container {
-    height: 50px;
-    font-size: 42px;
+    height: 1.5em;
+    font-size: 1em;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: aquamarine;
+    background-color: rgb(27, 181, 189);
+    text-decoration: none;
+    font-family: "inter", sans-serif;
+    color: white;
+}
+
+.header-container a {
+    color: white;
     text-decoration: none;
 }
