@@ -2,15 +2,18 @@ import React from 'react'
 import "./header.css"
 import { FcGraduationCap } from "react-icons/fc";
 import {Link,useNavigate} from "react-router-dom"
+import logoBlack from "../../assets/img/logo-black - bearbeitet.png"
 
 export default function Header() {
+
+
   return (
     <div className='header-container'>
-        <FcGraduationCap/>
-        <a href="/">Kurse</a>
-        <a href="/">Mitgliederbereich</a>
-        <a href="/">Tipps & Tricks</a>
-        <a href="/">Über uns</a>
+      <img src={logoBlack} alt="Logo" className='logo-black'/>
+        
+        <a href="/">Kursübersicht</a>
+        <a href="/">Mein Kursbereich</a>
+        <a href="/">About us</a>
     </div>
   )
 }
