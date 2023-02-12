@@ -12,19 +12,21 @@
     text-decoration: none;
     font-family: "DM Sans", sans-serif;
     color: white;
+    padding-top:20px;
+    padding-bottom: 20px;
 }
 
 .header-container a {
     color: white;
     text-decoration: none;
     border: 2px solid #3AB07B;
-    padding: 9px 18px;
+    padding: 5px 18px;
     border-radius: 10px;
     background-color: #3AB07B;
 }
 
 .logo-black {
-    height: 70%
+    height: 140%
 }
 
 .nav {
