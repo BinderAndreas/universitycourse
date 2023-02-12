@@ -3,7 +3,7 @@
 
 
 .header-container {
-    height: 4em;
+    height: 7em;
     font-size: 1em;
     display: flex;
     justify-content: space-around;
@@ -26,7 +26,7 @@
 }
 
 .logo-black {
-    height: 140%
+    height: 100%
 }
 
 .nav {

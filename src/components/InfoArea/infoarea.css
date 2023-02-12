@@ -13,7 +13,7 @@
     width: 60%;
     flex-direction: column;
     padding: 30px;
-    
+    color: rgb(84,84,84);
 }
 
 .advertisement-box p {
