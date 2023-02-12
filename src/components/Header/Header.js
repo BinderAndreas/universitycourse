@@ -9,9 +9,11 @@ export default function Header() {
   return (
     <div className='header-container'>
       <img src={logoBlack} alt="Logo" className='logo-black'/>
-        <a href="/">Kursübersicht</a>
-        <a href="/">Mein Kursbereich</a>
-        <a href="/">About us</a>
+      <div className='nav'>
+          <a href="/">Login</a>
+          <a href="/">Über uns</a>
+          <a href="/">Unsere Kurse</a>
+      </div>
     </div>
   )
 }

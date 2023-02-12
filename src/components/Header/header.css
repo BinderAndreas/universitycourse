@@ -15,17 +15,25 @@
 }
 
 .header-container a {
-    color: black;
+    color: white;
     text-decoration: none;
-    border: 2px solid black;
-    padding: 10px;
-    border-radius: 16px;
+    border: 2px solid #3AB07B;
+    padding: 9px 18px;
+    border-radius: 10px;
+    background-color: #3AB07B;
 }
 
 .logo-black {
-    height: 80%
+    height: 70%
 }
 
 .nav {
-    width: 80px;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 800px;
+   
+}
+
+.nav a {
+    margin-right: 16px;
 }
