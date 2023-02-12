@@ -6,8 +6,8 @@
     top: -50px;
     left: 50px;
     clip: rect(50px, auto, auto, auto);
-    filter: drop-shadow(0 0 20px);
-}
+    filter: drop-shadow(4px 8px 10px black);
+  }
 
 .banner {
     display: flex;
