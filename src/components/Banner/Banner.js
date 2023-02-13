@@ -1,12 +1,13 @@
 import React from 'react'
 import "./banner.css"
-import businessLady from "../../assets/img/businesslady.png"
+import office from "../../assets/img/03.png"
 
 function Banner() {
   return (
     <div className='banner'>
-        <p>Bestehe deine Betriebswirtschaftsprüfung mit unseren umfassenden Lernnotizen - Hol sie dir jetzt!</p>
-        <img src={businessLady} alt="business lady" className='businesslady'/>
+      <img src={office} alt="office" className='office'/>
+        <p>Vereinfache deine Bildungserfahrung mit unseren <b><span style={{ color: 'green', fontWeight: 'bold' }}>Intensiv-Online-Nachhilfekursen</span></b>.</p>
+        
     </div>
   )
 }

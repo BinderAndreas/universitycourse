@@ -1,27 +1,19 @@
-
-
-.businesslady {
+.office {
     position: relative;
-    height: 900px;
-    top: -50px;
-    left: 50px;
-    clip: rect(50px, auto, auto, auto);
-    filter: drop-shadow(4px 8px 10px black);
+    height: 30em;
   }
-
-.banner {
+  
+  .banner {
     display: flex;
-    background: rgb(84,84,84);
-background: linear-gradient(135deg, rgba(84,84,84,1) 0%, rgba(153,153,153,1) 46%, rgba(255,255,255,1) 93%);
     height: 500px;
     justify-content: space-around;
-}
-
-.banner p {
-    display: flex;
-    width: 40%;
     align-items: center;
-    color: white;
-    font-size: 3em;
-    margin-left:100px;
-}
+  }
+  
+  .banner p {
+    align-items: center;
+    color: black;
+    font-size: 2em;
+    margin-left: 100px;
+    width: 20em;
+  }

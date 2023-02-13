@@ -13,7 +13,8 @@
     font-family: "DM Sans", sans-serif;
     color: white;
     padding-top: 10px;
-padding-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #9e9e9e;
 }
 
 .header-container a {
@@ -26,7 +27,7 @@ padding-bottom: 10px;
 }
 
 .logo-black {
-    height: 80%
+    height: 60%;
 }
 
 .nav {
@@ -38,4 +39,9 @@ padding-bottom: 10px;
 
 .nav a {
     margin-right: 16px;
+}
+
+.login {
+    background-color: black !important;
+    border: 2px solid black !important;
 }
