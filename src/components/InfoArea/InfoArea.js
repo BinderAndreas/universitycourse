@@ -1,18 +1,34 @@
 import React from 'react'
 import "./infoarea.css"
-import { AiOutlineCheck } from "react-icons/ai";
+import overview from "../../assets/img/overview.png"
+
 
 function InfoArea() {
   return (
     <div className='info-area'>
-        <div className='advertisement-box'>
-        <AiOutlineCheck style={{ fontSize: '5em', color:"#3AB07B" }}/><p>Wir legen viel Wert auf Verständlichkeit und logischen Aufbau.</p>
+        <div className='headline'>
+        <h1>Das bieten wir:</h1>
         </div>
-        <div className='advertisement-box'>
-        <AiOutlineCheck style={{ fontSize: '5em', color:"#3AB07B" }}/><p>Wenn du die Prüfung wiederholen musst, verlängern wir dir den Zugang zu den Unterlagen.</p>
+        <img className='overview' src={overview} alt="overview"/>
+        <div className='headline'>
+        <h1>Unsere Stärken</h1>
         </div>
-        <div className='advertisement-box'>
-        <AiOutlineCheck style={{ fontSize: '5em', color:"#3AB07B" }}/><p>Speziell für Minimalisten oder Perfektionisten.</p>
+        <div className='abilities-overview'>
+          <div className='abilities zelle1'>
+            <p>Kostengünstig</p>
+          </div>
+          <div className='abilities zelle1'>
+            <p>Leicht verständlich</p>
+          </div>
+          <div className='abilities zelle2'>
+            <p>Effizient</p>
+          </div>
+          <div className='abilities zelle3'>
+            <p>Übersichtlich</p>
+          </div>
+          <div className='abilities zelle3'>
+            <p>Kompakt</p>
+          </div>
         </div>
     </div>
   )
