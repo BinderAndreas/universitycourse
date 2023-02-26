@@ -17,6 +17,27 @@
 
 .about-us-text {
     width: 40%;
-    margin-left: 37em;
+    
     margin-bottom: 7em;
+}
+
+.about-us-box {
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3AB07B;
+    color: white;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.description-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
