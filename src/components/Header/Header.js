@@ -2,22 +2,32 @@ import React from 'react'
 import "./header.css"
 import {Link,useNavigate} from "react-router-dom"
 import logoBlack from "../../assets/img/logo-black - bearbeitet.png"
-import OurCourses from '../../pages/OurCourses/OurCourses'
+import {auth} from "../../config/firebaseConfig"
+import {useAuthState} from "react-firebase-hooks/auth"
+import { signOut } from 'firebase/auth';
 
 
 export default function Header() {
 
   let navigate=useNavigate();
-
+  const [user]=useAuthState(auth)
 
   return (
     <div className='header-container'>
         <img src={logoBlack} onClick={()=>navigate("/")} alt="Logo" className='logo-black'/>
       <div className='nav'>
-          <a href="/" className='login'>Login</a>
-          <a href="/">Mein Kursbereich</a>
-          <a href="/aboutus">Über uns</a>
-          <a href="/ourcourses">Unsere Kurse</a>
+        {
+      user
+      ? <div>
+          <span className='username'>{user?.displayName ? user?.displayName : user?.email}</span>
+          <button className='auth-link' onClick={()=>signOut(auth)}>Logout</button>
+        </div>
+      : <Link className='auth-link' to={`/login`}>Login</Link>
+     }
+          <Link to={`/`}>Mein Kursbereich</Link>
+          <Link to={`/aboutus`}>Über uns</Link>
+          <Link to={`/ourcourses`}>Unsere Kurse</Link>
+          
       </div>
     </div>
   )

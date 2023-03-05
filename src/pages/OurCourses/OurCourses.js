@@ -20,7 +20,7 @@ function OurCourses() {
                  </div>
                 <h3>CBK</h3>
                 <div className='course-field'>
-                    <p>Introduction to Business Communication (LVP) (LVP)</p>
+                    <p>Introduction to Business Communication (LVP)</p>
                     <div className='informations'>
                         <a href="/">Mehr Informationen</a>
                         <a href="/" className='book-course'>Kurs buchen</a>
