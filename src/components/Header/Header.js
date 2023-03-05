@@ -20,7 +20,7 @@ export default function Header() {
       user
       ? <div className='logout'>
           <button className='auth-link' onClick={()=>signOut(auth)}>Logout</button>
-          <span className='username'>Hello, {user?.displayName ? user?.displayName : user?.email}</span>
+          <span className='username'>Hallo, {user?.displayName ? user?.displayName : user?.email}</span>
         </div>
       : <Link className='auth-link' to={`/login`}>Login</Link>
      }
