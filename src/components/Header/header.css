@@ -29,6 +29,9 @@
     padding: 5px 18px;
     border-radius: 10px;
     background-color: #3AB07B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo-black {
@@ -54,4 +57,13 @@
     padding: 5px 18px;
     border-radius: 10px;
     background-color: #000000;
+}
+
+.username {
+    
+}
+
+.logout {
+    display: flex;
+    flex-direction: column;
 }

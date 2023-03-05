@@ -18,9 +18,9 @@ export default function Header() {
       <div className='nav'>
         {
       user
-      ? <div>
-          <span className='username'>{user?.displayName ? user?.displayName : user?.email}</span>
+      ? <div className='logout'>
           <button className='auth-link' onClick={()=>signOut(auth)}>Logout</button>
+          <span className='username'>Hello, {user?.displayName ? user?.displayName : user?.email}</span>
         </div>
       : <Link className='auth-link' to={`/login`}>Login</Link>
      }
