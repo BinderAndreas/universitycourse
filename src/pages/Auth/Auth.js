@@ -57,7 +57,7 @@ const handleSignup=(e)=>{
               <input  value={password || "" } type="password" placeholder="Enter your password" onChange={(e)=>setPassword(e.target.value)} required />
             </div>
             <button type="submit">Submit</button>
-            <p>Don't have an account? <span onClick={()=>setExistingUser(false)}>SignUp</span></p>
+            <p>Don't have an account? <span onClick={()=>setExistingUser(false)} style={{color:"#3AB07B",fontWeight: 'bold' }}>SignUp</span></p>
             </form> 
           : <form className='auth-form' onSubmit={handleSignup}>
             <h1>Signup with your email</h1>
@@ -67,7 +67,7 @@ const handleSignup=(e)=>{
               <input value={password || "" } type="password" placeholder="Enter your password" onChange={(e)=>setPassword(e.target.value)} required />
             </div>
           <button type="submit">Submit</button>
-          <p>Already have an account? <span onClick={()=>setExistingUser(true)}>Login</span></p>
+          <p>Already have an account? <span onClick={()=>setExistingUser(true)}  style={{color:"#3AB07B",fontWeight: "bold" }}>Login</span></p>
           </form>
 
       }
