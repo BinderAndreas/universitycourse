@@ -6,6 +6,7 @@ import Footer from './components/Footer/Footer';
 import AboutUs from './pages/About us/AboutUs';
 import OurCourses from './pages/OurCourses/OurCourses';
 import Auth from './pages/Auth/Auth';
+import MyCourseArea from './pages/MyCourseArea/MyCourseArea';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/aboutus" element={<AboutUs/>}/>
         <Route path="/ourcourses" element={<OurCourses/>}/>
         <Route path='/login' element={<Auth/>}/>
+        <Route path="/mycoursearea" element={<MyCourseArea/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>

@@ -1,0 +1,10 @@
+.mycourse-area {
+    margin-top: 8em;
+    min-height: 100vh;
+}
+
+.headline-area {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

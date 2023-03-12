@@ -24,7 +24,7 @@ export default function Header() {
         </div>
       : <Link className='auth-link' to={`/login`}>Login</Link>
      }
-          <Link to={`/`}>Mein Kursbereich</Link>
+          <Link to={`/mycoursearea`}>Mein Kursbereich</Link>
           <Link to={`/aboutus`}>Über uns</Link>
           <Link to={`/ourcourses`}>Unsere Kurse</Link>
           
